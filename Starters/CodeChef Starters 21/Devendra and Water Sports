@@ -1,0 +1,25 @@
+#include<iostream>
+typedef long long ll;
+using namespace std;
+int main()
+{
+    cin.tie(NULL);
+    ios_base::sync_with_stdio(false);
+    int t;
+    cin>>t;
+    while(t--)
+{
+    int z,y,a,b,c;
+    cin>>z>>y>>a>>b>>c;
+    if(a+b+c <= (z-y))
+    {
+        cout<<"yes";
+    }
+    else
+    {
+        cout<<"no";
+    }
+    cout<<endl;
+}
+return 0;
+}
